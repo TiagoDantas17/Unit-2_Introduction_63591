@@ -467,6 +467,8 @@ GameObject:
   - component: {fileID: 3637326956485526586}
   - component: {fileID: 8467622797044646885}
   - component: {fileID: 1569841401772748098}
+  - component: {fileID: -8028780709570846396}
+  - component: {fileID: 3940783824027387398}
   m_Layer: 0
   m_Name: Animal_Fox_02
   m_TagString: Untagged
@@ -548,6 +550,39 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 78de6da237286c44dbfab9557d361b38, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Dest
+--- !u!65 &-8028780709570846396
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3633181438865931174}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.10291209, y: 0.26465976, z: 0.3252121}
+  m_Center: {x: -0.0028825284, y: 0.11137401, z: 0.0076838494}
+--- !u!114 &3940783824027387398
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3633181438865931174}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8cd8d4273fa243540a0813f66680b846, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::DetectCollisions
 --- !u!1 &4477985419355262285
 GameObject:
   m_ObjectHideFlags: 0

@@ -285,6 +285,8 @@ GameObject:
   - component: {fileID: 2446017988761532064}
   - component: {fileID: 5130998759564304209}
   - component: {fileID: 6249730636113707580}
+  - component: {fileID: 701533320059186144}
+  - component: {fileID: -6358266774650582059}
   m_Layer: 0
   m_Name: Animal_Doe_01
   m_TagString: Untagged
@@ -364,6 +366,39 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 78de6da237286c44dbfab9557d361b38, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Dest
+--- !u!114 &701533320059186144
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3002244313959770087}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8cd8d4273fa243540a0813f66680b846, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::DetectCollisions
+--- !u!65 &-6358266774650582059
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3002244313959770087}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.1104002, y: 0.37470713, z: 0.41157064}
+  m_Center: {x: -0.00032701492, y: 0.18863368, z: 0.039020587}
 --- !u!1 &3938924189969454531
 GameObject:
   m_ObjectHideFlags: 0
@@ -829,6 +864,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7207771597121346450}
   - component: {fileID: 5997843801213830509}
+  - component: {fileID: 2111413063007285350}
   m_Layer: 0
   m_Name: SM_Doe_02
   m_TagString: Untagged
@@ -910,6 +946,27 @@ SkinnedMeshRenderer:
     m_Center: {x: 0.000000007450581, y: -0.008504167, z: 0.11530784}
     m_Extent: {x: 0.053151757, y: 0.18348412, z: 0.19990173}
   m_DirtyAABB: 0
+--- !u!65 &2111413063007285350
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8578238943010636585}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.10630351, y: 0.36696824, z: 0.39980346}
+  m_Center: {x: 0.000000007450581, y: -0.008504167, z: 0.11530771}
 --- !u!1 &8740457066614029452
 GameObject:
   m_ObjectHideFlags: 0
